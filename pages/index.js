@@ -1,9 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Blogs from '../components/Blogs'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
+import Heros from '../components/Heros'
 import NavBar from '../components/NavBar'
 import PopularClass from '../components/PopularClass'
 import Services from '../components/Services'
+import Testimonials from '../components/Testimonials'
 
 
 
@@ -20,6 +24,10 @@ export default function Home() {
       <Hero/>
       <Services/>
       <PopularClass/>
+      <Heros/>
+      <Testimonials/>
+      <Blogs/>
+      <Footer/>
 
     </div>
   )

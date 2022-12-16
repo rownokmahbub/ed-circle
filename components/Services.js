@@ -19,7 +19,7 @@ const Services = () => {
         }
     ]
   return (
-    <div className='container mx-auto items-center py-20'>
+    <div className='container mx-auto items-center py-10'>
         <p className='text-lg text-purple-500 text-center font-medium'>Our services</p>
         <p className='text-3xl font-semibold text-center py-3'>Fostering a playful & engaging learning <br />
 environment</p>
