@@ -62,7 +62,7 @@ const Heros = () => {
                 {ser.promo}
               </p>
             <div className="flex gap-5 items-center">
-            <a href={ser.fb} target="_blank">
+            <a href={ser.fb} >
               <BsFacebook className="text-purple-500 hover:text-white"/>
               </a>
      
